@@ -135,6 +135,9 @@ header {
 
 .hero {
   background-color: #2f303a;
+  background-image: url(../images/PICs/bg.jpg);
+  background-size: cover;
+  background-position: center;
   padding-top: 259px;
   padding-bottom: 284px;
 }
@@ -191,6 +194,18 @@ header {
   padding-bottom: 19px;
 }
 
+.about-list {
+  display: inline-flex;
+  align-items: center;
+  gap: 71px;
+}
+
+.about-item {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
 .about .container {
   padding-left: 66px;
   padding-right: 66px;
@@ -209,11 +224,6 @@ header {
   text-align: center;
 }
 
-.about-list {
-  display: flex;
-  align-items: center;
-  gap: 71px;
-}
 /**
   |============================
   | SOLUTION
