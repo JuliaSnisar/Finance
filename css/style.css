@@ -189,7 +189,7 @@ header {
   |============================
 */
 
-.about {
+/* .about {
   padding-top: 122px;
   padding-bottom: 19px;
 }
@@ -222,6 +222,18 @@ header {
 .about-text {
   line-height: 1.56;
   text-align: center;
+} */
+
+.about-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-item {
+  gap: 20px;
 }
 
 /**
